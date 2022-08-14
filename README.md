@@ -35,5 +35,5 @@ Project has a three-tier architecture:
 1. Clone or download repository;
 2. Configure Tomcat (v.9.0.50); 
 3. Add your database URL, username, password and JDBC driver into corresponding fields in src/main/resources/hibernate.cfg.xml;
-4. You can inject custom data in init/
+4. You can inject custom data in src/main/java/cinema/init/DataInitializer;
 5. Run the application.

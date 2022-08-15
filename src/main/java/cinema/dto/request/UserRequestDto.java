@@ -2,8 +2,8 @@ package cinema.dto.request;
 
 import cinema.lib.FieldsValueMatch;
 import cinema.lib.ValidEmail;
-import javax.validation.constraints.Size;
 import java.util.List;
+import javax.validation.constraints.Size;
 
 @FieldsValueMatch(
         field = "password",

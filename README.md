@@ -23,17 +23,17 @@ Project has a three-tier architecture:
 3. The data tier (DAO).
 
 ## Technologies
-- Hibernate ORM;
+- Hibernate;
 - Spring MVC;
 - Spring security;
-- JDBC API;
 - Apache Tomcat v.9.0.50;
 - Apache Maven;
-- MySql.
+- MySQL.
 
 ## Launch
 1. Clone or download repository;
 2. Configure Tomcat (v.9.0.50); 
-3. Add your database URL, username, password and JDBC driver into corresponding fields in src/main/resources/db.properties;
-4. You can inject custom data in src/main/java/cinema/init/DataInitializer;
-5. Run the application.
+3. Create schema named `cinema` in MySQL;
+4. Add your database URL, username, password and JDBC driver into corresponding fields in src/main/resources/db.properties;
+5. You can inject custom data in src/main/java/cinema/init/DataInitializer;
+6. Run the application.
